@@ -1,7 +1,7 @@
 :root {
-    --primaryColor: green;
-    --secondaryColor: red;
-    --bgColor: black;
+    --primaryColor: #b5bd68;
+    --secondaryColor: #cc6666;
+    --bgColor: #1d1f21;
 }
 
 body {
