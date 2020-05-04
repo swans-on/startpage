@@ -1,0 +1,62 @@
+:root {
+    --primaryColor: green;
+    --secondaryColor: red;
+    --bgColor: black;
+}
+
+body {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--bgColor);
+}
+
+a {
+    color: var(--primaryColor);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkBoxContainer {
+    display: flex;
+}
+
+.linkBox {
+    border: 1px solid var(--primaryColor);
+    text-align: center;
+    margin: 2em;
+    padding: 0.5em;
+    width: 10em;
+}
+
+.linkBox li {
+    margin: 1em 0.5em;
+}
+
+.linkBox a:hover {
+    color: var(--secondaryColor);
+}
+
+#search {
+    width: 30em;
+    padding: 1em;
+    border: 1px solid var(--primaryColor);
+}
+
+#searchBox {
+    font-size: 24px;
+    border: none;
+    margin: auto;
+    background-color: var(--bgColor);
+    color: var(--primaryColor);
+}
