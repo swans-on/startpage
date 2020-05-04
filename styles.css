@@ -25,6 +25,7 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 8em;
 }
 
 .linkBoxContainer {
@@ -59,4 +60,19 @@ ul {
     margin: auto;
     background-color: var(--bgColor);
     color: var(--primaryColor);
+}
+
+@media only screen and (max-width: 768px) {
+    /* Mobile view */
+    .wrapper {
+        margin-top: 1em;
+    }
+
+    .linkBoxContainer {
+        flex-direction: column;
+    }
+
+    #search {
+        display: none;
+    }
 }
